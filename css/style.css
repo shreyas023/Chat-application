@@ -40,7 +40,8 @@ body{
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    width: 300px;
+    max-width: 300px;
+    width: fit-content;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 .left{
@@ -75,7 +76,7 @@ body{
     height: 40px;
     border-top: 2px solid black;
     outline: none;
-    border-bottom-left-radius: 25px;
+    border-bottom-left-radius: 2px;
     padding: 0 15px;
 }
 .btn{
